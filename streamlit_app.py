@@ -52,8 +52,8 @@ class FileUpload(object):
 if __name__ ==  "__main__":
     header = st.container()
     with header:
-        st.title("Less Black Blackout")
-        st.text("SRGAN for removing PHI")
+        st.title("SRGAN Blackout")
+        st.text("A generative adversarial network for removing PHI")
 
     helper = FileUpload()
     helper.run()
